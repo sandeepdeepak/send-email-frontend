@@ -1,0 +1,67 @@
+#header {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 6px;
+  left: 0.75em;
+  font-size: 15px;
+  color: rgb(153, 153, 153);
+  border: rgb(153, 153, 153) 1px solid;
+  border-radius: 5px;
+}
+
+.button-wrap {
+  position: relative;
+}
+
+.new-button {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #68bfd3;
+  font-size: 16px;
+  color: #fff;
+}
+
+.example-viewport {
+  height: 55vh;
+}
+
+.example-item {
+  height: 50px;
+}
+
+table.minimalistBlack {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#users td,
+#users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#users tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#users tr:hover {
+  background-color: #ddd;
+}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 500;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
