@@ -1,4 +1,4 @@
 
 export const environment = {
-  hostName: "http://localhost:3000"
+  hostName: "https://send-email-backend.herokuapp.com"
 };
